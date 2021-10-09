@@ -9,13 +9,4 @@ print ("Opened")'''
 '''clone = Repo.clone_from('https://github.com/Abhinandini/new', '/Users/abhi/Desktop/GitRepository')'''
 # or clone via ssh (will use default keys)
 #git.Repo.clone_from('git@github.cim:DevDungeon/Cookbook', 'Cookbook-ssh')
-file_list = [
-    "/Users/abhi/Desktop/jennifer.jpeg",
-]
-repo = Repo('GitRepository')
-repo.index.add(file_list)
-#repo.index.add(update=True)
-repo.index.commit("Adding new file")
-origin = repo.remote(name='origin')
-origin.push()
-#git_push()
+f
